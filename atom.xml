@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Scribble</title>
-    <description></description>
-    <link>https://hencychine.github.io</link>
-    <atom:link href="https://hencychine.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>The very first post on this site</title>
-        <description>&lt;p&gt;Still trying out all the new stuff about building a site. Neat thing about this site - powered by &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>HC</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2016-12-14T22:36:28+11:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>HC</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>The very first post on this site</title>
+   <link href="http://localhost:4000/blog/2016/12/14/very-first-post"/>
+   <updated>2016-12-14T00:00:00+11:00</updated>
+   <id>http://localhost:4000/blog/2016/12/14/very-first-post</id>
+   <content type="html">&lt;p&gt;Still trying out all the new stuff about building a site. Neat thing about this site - powered by &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&quot;use strict&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
@@ -143,11 +152,8 @@
 &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-</description>
-        <pubDate>Wed, 14 Dec 2016 00:00:00 +1100</pubDate>
-        <link>https://hencychine.github.io/blog/2016/12/14/very-first-post</link>
-        <guid isPermaLink="true">https://hencychine.github.io/blog/2016/12/14/very-first-post</guid>
-      </item>
-    
-  </channel>
-</rss>
+</content>
+ </entry>
+ 
+
+</feed>
